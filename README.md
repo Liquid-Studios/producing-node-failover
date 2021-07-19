@@ -1,5 +1,6 @@
 # Producing Node Failover via `keepalived`
 This is a simple `keepalived` configuration to automatically pause/resume the `nodeos` producer plugin to prive high-availability.
+Based on https://github.com/pete001/eos-bp-failover/tree/master/producing-node-failover
 ## Install `keepalived` and `jq`
 We highly recommend getting familiar with `keepalived` and you to make sure multicast communication is possible between producer nodes.
 ```
